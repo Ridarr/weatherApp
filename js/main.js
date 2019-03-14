@@ -1799,8 +1799,10 @@ function rotate(e) {
 $(document).scroll(function () {
   if ($(document).scrollTop() >= $('#features').offset().top - 10 && $(document).scrollTop() < $('#download-app').offset().top) {
     $('#navTop').addClass('fixed-top');
+    $('header').css('padding-top', '68px');
   } else {
     $('#navTop').removeClass('fixed-top');
+    $('header').css('padding-top', 'initial');
   }
 
   if ($(document).scrollTop() < $('#features').offset().top - 20) {

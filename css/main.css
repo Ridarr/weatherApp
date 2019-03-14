@@ -3784,7 +3784,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0px;
 }
 
 .navbar > .container,
@@ -3806,7 +3806,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
-  margin-right: 1rem;
+  margin-right: 0px;
   font-size: 1.5rem;
   line-height: inherit;
   white-space: nowrap;
@@ -7477,7 +7477,7 @@ hr {
   background-size: cover;
   background-position: bottom;
   color: #fff;
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 991.98px) {
@@ -8168,11 +8168,6 @@ h4 {
   .mb-1-xs {
     margin-bottom: 1rem !important;
   }
-}
-
-::-moz-selection {
-  color: #fff;
-  background: #fc6a42;
 }
 
 ::selection {
