@@ -7921,7 +7921,9 @@ h4 {
 
 @media (max-width: 991.98px) {
   .navbar {
-    position: relative !important;
+    position: relative!important;
+    padding-right: 15px; 
+    padding-left: 15px;
   }
 }
 
