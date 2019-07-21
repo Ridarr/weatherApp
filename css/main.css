@@ -109,7 +109,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Ubuntu", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Nunito", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -139,7 +139,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Ubuntu", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Nunito", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.6;
@@ -3982,8 +3982,8 @@ input[type="button"].btn-block {
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+    /* padding-right: 0;
+    padding-left: 0; */
   }
 }
 
@@ -7916,14 +7916,6 @@ h4 {
   }
   .navbar-bottom .navbar-collapse > ul:first-child {
     display: none;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .navbar {
-    position: relative!important;
-    padding-right: 15px; 
-    padding-left: 15px;
   }
 }
 
